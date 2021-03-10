@@ -1,11 +1,11 @@
 import crafttweaker.api.item.ItemStack;
 import crafttweaker.api.item.IItemStack;
 
-
 //Some handy crafting constants
 val press = <recipetype:thermal:press>;
 //val pyrolyzer = <recipetype:thermal:pyrolyzer>;
 val compressionFuel = <recipetype:thermal:compression_fuel>;
+val centrifuge = <recipetype:thermal:centrifuge>;
 
 //Remove all gear recipes
 val gearsArray = [<item:thermal:iron_gear>,<item:thermal:gold_gear>,<item:thermal:lapis_gear>,<item:thermal:diamond_gear>,<item:thermal:emerald_gear>,
@@ -43,3 +43,6 @@ craftingTable.addShaped("sawmill_thermal", <item:thermal:machine_sawmill>,[
     [<tag:items:forge:stone>, <item:thermal:machine_frame>, <tag:items:forge:stone>],
     [<tag:items:forge:gears/copper>, <item:thermal:rf_coil>, <tag:items:forge:gears/copper>]
 ]);
+
+//Honey------------------------------------------------------- later, need to find COFH id first
+

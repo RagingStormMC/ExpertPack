@@ -38,7 +38,13 @@ val disbledItems= [
 
 <item:thermal:coal_coke_block>,
 <item:thermal:creosote_bucket>,
-<item:thermal:saw_blade>
+<item:thermal:saw_blade>,
+
+<item:create:copper_ingot>,
+<item:create:copper_nugget>,
+<item:create:copper_sheet>,
+<item:create:copper_block>,
+<item:create:copper_ore>
 ] as IItemStack[];
 
 for i in disbledItems{
